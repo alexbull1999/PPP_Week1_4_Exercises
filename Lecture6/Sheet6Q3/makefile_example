@@ -1,0 +1,3 @@
+exampleanswer: ExampleAnswer.cpp
+	g++ -Wall -g ExampleAnswer.cpp -o exampleanswer
+

@@ -1,0 +1,3 @@
+tempconversionANS: tempconversionANS.cpp
+		   g++ -Wall -g tempconversionANS.cpp -o tempconversionANS
+		   

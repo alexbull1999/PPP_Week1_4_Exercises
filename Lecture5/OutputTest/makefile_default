@@ -1,0 +1,3 @@
+withcomments: OutputTest.cpp
+	g++ -Wall -g OutputTest.cpp -o withcomments
+

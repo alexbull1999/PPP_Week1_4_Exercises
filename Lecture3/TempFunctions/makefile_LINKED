@@ -1,0 +1,12 @@
+tempfunction_LINKED: tempfunction_functions.o tempfunction_main.o
+	g++ -Wall -g tempfunction_functions.o tempfunction_main.o -o tempfunction_LINKED
+
+tempfunction_main.o: tempfunction_main.cpp tempfunctions.h
+	g++ -Wall -g -c tempfunction_main.cpp
+
+tempfunction_functions.o: tempfunction_functions.cpp tempfunctions.h
+	g++ -Wall -g -c tempfunction_functions.cpp
+
+clean:
+	rm -f *.0 tempfunction_LINKED
+

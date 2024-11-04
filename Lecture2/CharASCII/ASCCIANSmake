@@ -1,0 +1,3 @@
+charconversionANS: charconversionANS.cpp
+		   g++ -Wall -g charconversionANS.cpp -o charconversionANS
+		   

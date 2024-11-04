@@ -1,0 +1,2 @@
+powerloop: powerloopv1.cpp
+        g++ -Wall -g powerloop.cpp -o powerloop

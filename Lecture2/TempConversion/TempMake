@@ -1,0 +1,3 @@
+tempconversion: tempconversion.cpp
+		g++ -Wall -g tempconversion.cpp -o tempconversion
+		

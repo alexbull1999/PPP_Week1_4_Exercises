@@ -1,0 +1,2 @@
+whiletest: whiletest.cpp
+	g++ -Wall -g whiletest.cpp -o whiletest

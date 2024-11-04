@@ -1,0 +1,2 @@
+enum_default: enum_default.cpp
+	g++ -Wall -g enum_default.cpp -o enum_default

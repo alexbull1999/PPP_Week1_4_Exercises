@@ -1,0 +1,2 @@
+enum_print_day: enum_print_day.cpp
+	g++ -Wall -g enum_print_day.cpp -o enum_print_day

@@ -1,0 +1,3 @@
+powerloop: powerloop.cpp
+    g++ 
+

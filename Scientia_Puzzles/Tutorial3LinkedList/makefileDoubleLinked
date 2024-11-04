@@ -1,0 +1,2 @@
+doublelinkedexecute: doublelinkedlist.cpp
+	g++ -g -Wall doublelinkedlist.cpp -o doublelinkedexecute

@@ -1,0 +1,3 @@
+tempconversionq2: tempconversionq2.cpp
+		  g++ -Wall -g tempconversionq2.cpp -o tempconversionq2
+		  

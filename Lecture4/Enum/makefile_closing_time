@@ -1,0 +1,3 @@
+enum_closing_time: enum_closing_time.cpp
+	g++ -Wall -g enum_closing_time.cpp -o enum_closing_time
+

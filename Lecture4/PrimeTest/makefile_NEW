@@ -1,0 +1,11 @@
+prime.exec_NEW: mainprogramfile.o prime_test_better.o
+	g++ -Wall -g mainprogramfile.o prime_test_better.o -o prime.exec_NEW
+
+mainprogramfile.o: mainprogramfile.cpp b_prime.h
+	g++ -Wall -g -c mainprogramfile.cpp
+
+b_prime_test.o: prime_test_better.cpp b_prime.h
+	g++ -Wall -g -c prime_test_better.cpp
+
+clean:
+	rm -f *.o prime.exec_NEW

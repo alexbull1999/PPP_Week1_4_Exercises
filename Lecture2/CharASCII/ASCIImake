@@ -1,0 +1,3 @@
+charconversion: charconversion.cpp
+		g++ -Wall -g charconversion.cpp -o charconversion
+		
